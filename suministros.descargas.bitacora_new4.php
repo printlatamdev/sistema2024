@@ -143,27 +143,6 @@ $nivel = $_SESSION['nivel'] ?? '';
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
 
-
-  <?php
-  if (trim($pruebaget) == false) { ?>
-
-
-
-    <?php
-  } else { ?>
-    <script type="text/javascript">
-      $(function () {
-        $("#anuncio").modal();
-      });
-    </script>
-
-
-
-    <?php
-  }
-
-  ?>
-
   <script>
 
     $(function () {

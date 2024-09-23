@@ -119,26 +119,6 @@ $nivel = $_SESSION['nivel'];
 
 
 
-  <?php
-  if (trim($pruebaget) == false) { ?>
-
-
-
-  <?php
-  } else { ?>
-    <script type="text/javascript">
-      $(function() {
-        $("#anuncio").modal();
-      });
-    </script>
-
-
-
-  <?php
-   }
-
-  ?>
-
   <script>
     $(function() {
 
@@ -1330,7 +1310,7 @@ $nivel = $_SESSION['nivel'];
 
 
   <?php
-  include("footer.php");
+  include("suministros/footer.php");
   ?>
   <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
   <!-- BEGIN CORE PLUGINS -->

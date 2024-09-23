@@ -1,12 +1,13 @@
 
 
-<?
+<?php
 session_start();
 $id=$_SESSION['vsIdempresa'];
 $base=$_SESSION['base'];
 $anio=$_SESSION['year'];
 $bd=$base.$anio;
 $nombre=$_SESSION['vsNombre'];
+$nivel = $_SESSION['nivel'] ?? '';
 
 
 
@@ -155,29 +156,6 @@ $nombre=$_SESSION['vsNombre'];
   
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
-
-
-
-  
-      <?
-if (trim($pruebaget) == false) {?>
-
-
- 
-   <?  
-}
-else{?>
- <script type="text/javascript">
- $(function(){
-  $("#anuncio").modal();
- });
-</script>
-
-
-
-<?}
-
-  ?>
 
 <script>
   
@@ -464,7 +442,7 @@ a:active { color:#000000; text-decoration: underline; }
 <div class="wrapper">
 
   <!-- Navbar -->
-    <? include ('navbar.php');?>
+    <?php include ('navbar.php');?>
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
@@ -480,17 +458,17 @@ a:active { color:#000000; text-decoration: underline; }
     <div class="sidebar">
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-        <? if ($base=="esa") { ?>
+        <?php if ($base=="esa") { ?>
           <div class="image">
              <img src="images/esa1.png" class="img-circle elevation-2" alt="User Image">
           </div>
-        <? }if($base=="nica"){ ?>
+        <?php }if($base=="nica"){ ?>
           <div class="image">
              <img src="images/nica1.png" class="img-circle elevation-2" alt="User Image">
           </div>
-        <? }?>
+        <?php }?>
         <div class="info">
-          <a href="#" class="d-block"><?echo $nombre;?></a><a  class="d-block"> online <i class="fas fa-signal" style="color: #2EFE2E"></i></a>
+          <a href="#" class="d-block"><?php echo $nombre;?></a><a  class="d-block"> online <i class="fas fa-signal" style="color: #2EFE2E"></i></a>
         </div>
       </div>
 
@@ -499,7 +477,7 @@ a:active { color:#000000; text-decoration: underline; }
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-         <?include("menu4.php");?>
+         <?php include("menu4.php");?>
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -990,7 +968,7 @@ a:active { color:#000000; text-decoration: underline; }
 </div>
 
   <!-- /.content-wrapper -->
-<?include("pie.php")?>
+<?php include("pie.php")?>
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">

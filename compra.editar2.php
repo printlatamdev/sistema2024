@@ -663,7 +663,7 @@ $nivel = $_SESSION['nivel'] ?? '';
     </div>
 
     <?php
-    include("footer.php");
+    include("suministros/footer.php");
     ?>
 
     <script>
@@ -689,9 +689,6 @@ $nivel = $_SESSION['nivel'] ?? '';
       });
     </script>
 
-<?php
-    include("footer.php");
-    ?>
     <script>
       jQuery(document).ready(function () {
         Metronic.init(); // init metronic core componets
