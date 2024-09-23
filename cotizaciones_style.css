@@ -1,0 +1,58 @@
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+* {
+    font-family: "Calibri", Regular, Italic;
+}
+
+
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.title {
+    color: #0f547f;
+    font-weight: bold;
+}
+
+.date-box {
+    background: #0f547f;
+    color: white;
+    width: 80%;
+    float: right;
+    text-align: left;
+    padding: 10px;
+}
+
+ .center{
+    border-left: 1px solid #0f547f;
+}
+.table-color{
+    border-bottom: 1px solid #0f547f;text-align: center;
+}
+thead{
+   background:  #0f547f;color: white;
+}
+th {
+    font-weight: bold; 
+}

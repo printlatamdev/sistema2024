@@ -1,0 +1,8 @@
+<?
+
+$muestra=$_REQUEST['name'];
+
+
+
+
+?>

@@ -1,0 +1,20 @@
+#reporte div.arrow {
+background: transparent url(arrows.png) no-repeat scroll 0px -16px;
+width: 16px;
+height: 16px;
+display: block;
+}
+#reporte div.up {
+background: transparent url(arrows.png) no-repeat scroll 0px 0px;
+width: 16px;
+height: 16px;
+display: block;
+}
+#reporte div.up {
+background-position: 0px 0px;
+}
+$("#reporte tr:odd").addClass("odd");
+$("#reporte tr:not(.odd)").hide();
+$("#reporte tr:first-child").show();
+$(this).next("tr").toggle();
+$(this).find(".arrow").toggleClass("up");

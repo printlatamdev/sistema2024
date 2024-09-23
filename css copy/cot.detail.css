@@ -1,0 +1,208 @@
+body {
+              padding-top: 20px;
+              padding-bottom: 20px;
+     }
+  
+          
+
+#hd {
+              height: 135px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+
+            
+     }
+
+
+
+#ft {
+              height: 25px;
+              text-align: center;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+            
+     }
+
+
+.navbar {
+                  margin-bottom: 20px;
+                  padding-left: 10px;
+                  padding-right: 10px;
+        }
+
+/* cot.home.php */
+#sep { height: 10px; }
+
+#lbl { width: 100px; text-align: right; }
+
+
+#tit-col {  border-radius: 7px 0px 0px 0px;  }
+
+#tit-col2 {  border-radius: 0px 7px 0px 0px;  }
+
+#fin-col { text-align: right;    }
+
+#ccx { border-style: solid;   }
+
+.selectw { }
+
+/* FIN cot.home.php */
+
+#gen2 { text-align: center;    }
+
+#gen1 { text-align: center;    }
+
+#gen3 { text-align: center;    }
+
+#ag { text-align: center;    }
+
+#ex { width: 15px; height: 15px;     }
+
+#ex2 { width: 25px; height: 25px;     }
+
+input[type="number"]
+  {
+      width:60px; 
+  }  
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+
+/* ----------------------------------------------------------------------------------------------------*/
+
+@media (min-width: 300px) { 
+    
+   .info:before { content: "Color Digital - Tel.: (503) 2237-0954"; }
+   #cnt {
+              height: 1610px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+              padding: 8px;
+             
+            
+     }
+    #tab-container { margin-left: 15px;  }
+    #tab { width: 300px;    }
+    #detalles-tit {    text-align: center;   border-radius: 4px 4px 0px 0px; }
+    #detalles {      }
+    .col-container {   }
+
+
+ }
+
+
+/* ----------------------------------------------------------------------------------------------------*/
+@media (min-width: 768px) { 
+    
+    .info:before { content: "Color Digital - Tel.: (503) 2237-0954 - Fax: (503) 2237-2975"; }
+    #cnt {
+              height: 1115px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+              padding: 8px;
+             
+            
+     }
+
+   
+
+    #tab-container { margin-left: 15px;  }
+    #tab { width: 730px;    }
+    #detalles-tit { width: 700px; margin-left: -15px;  text-align: center;  border-radius: 4px 4px 0px 0px;  }
+    #detalles { width: 700px;    }
+    .col-container { background-color: white; border-radius: 7px; border-style: solid; border-color: gray; border-width:1px;  }
+
+ }
+
+
+/* ----------------------------------------------------------------------------------------------------*/
+@media (min-width: 992px) { 
+
+   .info:before { content: "Color Digital - Tel.: (503) 2237-0954 - Fax: (503) 2237-2975"; }
+   #cnt {
+              height: 970px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+              padding: 8px;
+             
+            
+     }
+
+
+     #tab-container { margin-left: 25px;      }
+     #tab { width: 900px;    }
+     #detalles-tit { width: 740px; margin-left: 15px; text-align: center;  border-radius: 4px 4px 0px 0px;  }
+     #detalles { width: 800px;    }
+     .col-container { background-color: white; border-radius: 7px; border-style: solid; border-color: gray; border-width:1px;  }
+
+ }
+
+/* ----------------------------------------------------------------------------------------------------*/
+@media (min-width: 1200px) { 
+
+   .info:before { content: "Color Digital - Tel.: (503) 2237-0954 - Fax: (503) 2237-2975"; }
+   #cnt {
+              height: 970px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+              padding: 8px;
+                  
+
+     }
+
+  
+
+  .selectw { width:245px !important; }
+
+  #tab-container { margin-left: 60px;      }
+  #tab { width: 1050px;    }
+  #ex { vertical-align: bottom;  width: 15px; height: 15px;     }
+  #detalles-tit { width: 740px; margin-left: 15px; text-align: center;  border-radius: 4px 4px 0px 0px;  }
+  #detalles { width: 800px; margin-left: 180px;   }
+  .col-container { background-color: white; width: 800px; border-radius: 7px; border-style: solid; border-color: gray; border-width:1px;  }
+
+  #gen2 { text-align: center;    }
+
+  #gen1 { text-align: right;    }
+
+  #gen3 { text-align: left;    }
+
+   input[type="text"], input[type="email"]
+  {
+      width:245px; 
+  }  
+
+   
+
+} 

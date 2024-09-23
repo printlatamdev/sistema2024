@@ -1,0 +1,140 @@
+body {
+              padding-top: 20px;
+              padding-bottom: 20px;
+     }
+  
+          
+
+#hd {
+              height: 135px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+
+            
+     }
+
+
+
+#ft {
+              height: 25px;
+              text-align: center;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+            
+     }
+
+
+.navbar {
+                  margin-bottom: 20px;
+                  padding-left: 10px;
+                  padding-right: 10px;
+        }
+
+/* cot.home.php */
+#sep { height: 10px; }
+
+#lbl { width: 100px; text-align: right; }
+
+.col-container { background-color: white; }
+
+#tit-col { background-color: #5B8FB4;   }
+
+#fin-col { text-align: right;    }
+
+#ccx { border-style: solid;   }
+
+.selectw { }
+
+/* FIN cot.home.php */
+
+.numcot { width: 50px; text-align: center; }
+
+@media (min-width: 300px) { 
+    
+   .info:before { content: "Color Digital - Tel.: (503) 2237-0954"; }
+   #cnt {
+              height: 1200px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+              padding: 8px;
+             
+            
+     }
+
+ }
+
+
+@media (min-width: 768px) { 
+    
+    .info:before { content: "Color Digital - Tel.: (503) 2237-0954 - Fax: (503) 2237-2975"; }
+    #cnt {
+              height: 1100px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+              padding: 8px;
+             
+            
+     }
+
+ }
+
+
+@media (min-width: 992px) { 
+
+   .info:before { content: "Color Digital - Tel.: (503) 2237-0954 - Fax: (503) 2237-2975"; }
+   #cnt {
+              height: 1100px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+              padding: 8px;
+             
+            
+     }
+
+ }
+
+
+@media (min-width: 1200px) { 
+
+   .info:before { content: "Color Digital - Tel.: (503) 2237-0954 - Fax: (503) 2237-2975"; }
+   #cnt {
+              height: 1100px;
+              border-radius: 7px;
+              background: -webkit-gradient(linear, left top, left bottom, from(#e6e6e6), to(white));
+              background: -webkit-linear-gradient(#e6e6e6, white);
+              background: linear-gradient(#e6e6e6, white); /* Standard syntax (must be last) */
+              border-style: groove;
+              margin-top: 5px;
+              padding: 8px;        
+     }
+
+  .col-container { background-color: white; width: 800px; }
+
+  .selectw { width:245px !important; }
+
+  input[type="text"], input[type="email"]
+  {
+      width:245px; 
+  }  
+
+
+}

@@ -1,0 +1,201 @@
+
+<script type="text/javascript">
+//$('.listado_volumen_negocio > tr').remove();
+var listado_volumen_negocio = $('.listado_volumen_negocio');
+var response = {
+  "data": [{
+      "Nivel_Codigo": 1,
+      "Nombre": "Juan",
+      "VNIndividual": 4,
+      "VNRed": 7,
+      "Titulo": "10"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    },
+    {
+      "Nivel_Codigo": 2,
+      "Nombre": "Pablo",
+      "VNIndividual": 5,
+      "VNRed": 8,
+      "Titulo": "11"
+    }
+  ]
+};
+$.each(response.data, function(index, value) {
+  $('<tr>')
+    .append($('<td style="font-size: 11px;"/>').addClass('label-cell nuevo-td').append("<p style='margin-bottom: 0px;margin-top: 0px;'>" + value.Nivel_Codigo + "</p>" + "<p style='margin-bottom: 0px;margin-top: 0px;'>" + value.Nombre + "</p>"))
+    .append($('<td style="font-size: 11px;"/>').addClass('label-cell nuevo-td').text(moneda(value.VNIndividual)))
+    .append($('<td style="font-size: 11px;"/>').addClass('label-cell nuevo-td').text(moneda(value.VNRed)))
+    .append($('<td style="font-size: 11px;"/>').addClass('label-cell nuevo-td').text(value.Titulo))
+    .appendTo(listado_volumen_negocio);
+});
+
+
+function moneda(any) {
+  return "$" + any;
+}
+
+
+
+/////////////// header ////////////
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {
+  myFunction()
+};
+
+// Get the header
+var header = document.getElementById("myHeader");
+
+// Get the offset position of the navbar
+var sticky = header.offsetTop;
+
+// Add the sticky class to the header when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+
+  } else {
+    header.classList.remove("sticky");
+
+  }
+}</script>
+<style type="text/css">
+
+/* estilo del encabezado */
+
+.header {
+  background: #fff;
+  color: #000;
+}
+
+
+/* Contenido */
+
+.content {
+  padding: 10px;
+}
+
+
+/* esta clase se agrega con js */
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.tdoculto {
+  visibility: hidden;
+}
+
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<div class="card data-table nueva-table freeze-table">
+  <table class="table">
+    <thead class="header" id="myHeader">
+      <tr>
+        <th class="nuevo-td" rowspan="2" style="font-size: 11px;">Nombre</th>
+        <th colspan="2">Volumen de negocio</th>
+        <th rowspan="2" class="label-cell nuevo-th" style="font-size: 11px;">Titulo</th>
+      </tr>
+      <tr>
+        <th class="nuevo-td" style="font-size: 11px;">Individual</th>
+        <td class="label-cell nuevo-th" style="font-size: 11px;">Red</td>
+      </tr>
+    </thead>
+    <tbody id="listado_volumen_negocio" class="listado_volumen_negocio">
+      <tr class="tdoculto">
+        <td rowspan="2" style="font-size: 11px;">Nombre</td>
+        <td colspan="2">Volumen de negocio</td>
+        <td rowspan="2" class="label-cell nuevo-th" style="font-size: 11px;">Titulo</td>
+      </tr>
+      <tr class="tdoculto">
+        <td class="nuevo-td" style="font-size: 11px;">Individual</td>
+        <td class="label-cell nuevo-th" style="font-size: 11px;">Red</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
