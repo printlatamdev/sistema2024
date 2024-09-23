@@ -16,11 +16,7 @@ function conexion()
   $bd = 'esa22';
 
   $con = mysqli_connect($server, $usuario, $clave, $bd);
-  if (!$con) {
-    die('no conecta amigo ' . mysqli_error());
-  } else {
     return ($con);
-  }
 }
 
 $conexion = conexion();
