@@ -758,7 +758,7 @@ $nivel = $_SESSION['nivel'];
                   <h4><strong>El Codigo <label id="code"></label> se ha descargado.<strong></h4>
                 </center>
               </p>
-              <input type="image" src='firmar.png' name="Firmar" onclick="test5();">
+              <input type="image" src='assets/images/firmar.png' name="Firmar" onclick="test5();">
             </div>
             <div class="modal-footer">
               <button data-dismiss="modal" class="btn green">OK</button>
@@ -888,7 +888,7 @@ $nivel = $_SESSION['nivel'];
                 </center>
               </p>
 
-              <input type="image" src='firmar.png' name="Firmar" onclick="test5();">
+              <input type="image" src='assets/images/firmar.png' name="Firmar" onclick="test5();">
 
             </div>
             <div class="modal-footer">

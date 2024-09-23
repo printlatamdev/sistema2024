@@ -236,7 +236,7 @@ if ($origen == "NI") {
 
 
 
-    $pdf->Cell(500, 50, $pdf->Image('logo_color_p.png', 5, 2, 50), 0, 0, 'C');
+    $pdf->Cell(500, 50, $pdf->Image('assets/images/logo_color_p.png', 5, 2, 50), 0, 0, 'C');
 
     //$pdf -> Cell(-90,0,"TINTA PRINT EL SALVADOR",20,100,"C");
 
@@ -452,7 +452,7 @@ $_SESSION['ValorPagar']=$suma;
 
 
 
-    $pdf->Cell(500, 50, $pdf->Image('logo_color_p.png', 5, 2, 50), 0, 0, 'C');
+    $pdf->Cell(500, 50, $pdf->Image('assets/images/logo_color_p.png', 5, 2, 50), 0, 0, 'C');
 
 
     $pdf->Cell(1000);
@@ -677,7 +677,7 @@ $_SESSION['ValorPagar']=$suma;
 
 
 
-    $pdf->Cell(500, 50, $pdf->Image('logo_color_p.png', 5, 2, 50), 0, 0, 'C');
+    $pdf->Cell(500, 50, $pdf->Image('assets/images/logo_color_p.png', 5, 2, 50), 0, 0, 'C');
 
     //$pdf -> Cell(-90,0,"TINTA PRINT EL SALVADOR",20,100,"C");
 
@@ -882,7 +882,7 @@ $_SESSION['ValorPagar']=$suma;
 
 
 
-    $pdf->Cell(500, 50, $pdf->Image('logo_color_p.png', 5, 2, 50), 0, 0, 'C');
+    $pdf->Cell(500, 50, $pdf->Image('assets/images/logo_color_p.png', 5, 2, 50), 0, 0, 'C');
 
     //$pdf -> Cell(-90,0,"TINTA PRINT EL SALVADOR",20,100,"C");
 

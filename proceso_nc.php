@@ -262,10 +262,10 @@ function myFunction2(val) {
 
          <td>ENVIO EN PROCESO:<img height='30px' src="focus/PROCESO.png" /> </td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;
-         EL SALVADOR COLOR DIGITAL   &nbsp;&nbsp;&nbsp;&nbsp; <a title="ORIGEN EL SALVADOR" href="proceso.php"><img src="sv.jpg" alt="Los Tejos" height="50"  /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         EL SALVADOR COLOR DIGITAL   &nbsp;&nbsp;&nbsp;&nbsp; <a title="ORIGEN EL SALVADOR" href="proceso.php"><img src="assets/images/sv.jpg" alt="Los Tejos" height="50"  /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;
 
-               RIM DE C.A (COLOR DIGITAL)  &nbsp;&nbsp;&nbsp;&nbsp;<a title="ORIGEN NICARAGUA" href="proceso_nc.php"><img src="nc.png" alt="Los Tejos" height="50"  /></a>
+               RIM DE C.A (COLOR DIGITAL)  &nbsp;&nbsp;&nbsp;&nbsp;<a title="ORIGEN NICARAGUA" href="proceso_nc.php"><img src="assets/images/nc.png" alt="Los Tejos" height="50"  /></a>
             
 
             <br>

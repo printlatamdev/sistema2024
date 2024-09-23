@@ -1240,14 +1240,14 @@ $consulta2020 = mysqli_query($conexion,"select t1.id_logistica, t1.id_orden, t1.
  
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
 
-    <a data-fancybox data-type="iframe" href="fotos_nuevo.php"><img src="cargando.png"  width="100"></a>
-    <a href="entre.php?id_orden=1" ><img src="cargando.png"  width="100"></a>
+    <a data-fancybox data-type="iframe" href="fotos_nuevo.php"><img src="assets/images/cargando.png"  width="100"></a>
+    <a href="entre.php?id_orden=1" ><img src="assets/images/cargando.png"  width="100"></a>
 
     
    <a href="#"><img src="evento.png"  width="100"></a>
 
- <a href="#"><img src="entrega.png" width="100"></a>
-  <a href="#"><img src="instructivo.png" width="100"></a>
+ <a href="#"><img src="assets/images/entrega.png" width="100"></a>
+  <a href="#"><img src="assets/images/instructivo.png" width="100"></a>
 
  
 

@@ -308,7 +308,7 @@
               <div class="card card-stats">
                 <div class="card-header card-header-success card-header-icon">
                   <div class="card-icon">
-                    <img src="OP8.jpg" width="80">
+                    <img src="assets/images/OP8.jpg" width="80">
                    
                   </div>
                   <p class="card-category">OP ACTIVAS</p>
@@ -318,7 +318,7 @@
                 <br><br><br><br><br>
                  <div class="card-header card-header-danger card-header-icon">
                   <div class="card-icon">
-                    <img src="OP8.jpg" width="80">
+                    <img src="assets/images/OP8.jpg" width="80">
                   </div>
                   <p class="card-category">OP FINALIZADAS</p>
                   <h1 class="card-title">10</h1>
@@ -339,7 +339,7 @@
               <div class="card card-stats">
                 <div class="card-header card-header-info card-header-icon">
                   <div class="card-icon">
-                    <img src="impresion.png" width="60" width="80">
+                    <img src="assets/images/impresion.png" width="60" width="80">
                   </div>
                     <p class="card-category">METROS IMPRESOS(POP)</p>
                   <h2 class="card-title">4,258.24 m</h2>
@@ -347,7 +347,7 @@
                 <br><br><br><br><br>
                  <div class="card-header card-header-info card-header-icon">
                   <div class="card-icon">
-                    <img src="impresion.png" width="60" width="80">
+                    <img src="assets/images/impresion.png" width="60" width="80">
                   </div>
                   <p class="card-category">METROS IMPRESOS(PO)</p>
                   <h2 class="card-title">4,258.24 m</h2>
@@ -359,7 +359,7 @@
               <div class="card card-stats">
                 <div class="card-header card-header-danger card-header-icon">
                   <div class="card-icon">
-                    <img src="pdf.png" width="60" width="80">
+                    <img src="assets/images/pdf.png" width="60" width="80">
                   </div>
                   <p class="card-category">Cotizaciones</p>
                   <h1 class="card-title">60</h1>

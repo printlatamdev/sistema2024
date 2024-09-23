@@ -290,10 +290,10 @@ function myFunction2(val) {
                   &nbsp;&nbsp;&nbsp;&nbsp;
 
 
-               EL SALVADOR COLOR DIGITAL   &nbsp;&nbsp;&nbsp;&nbsp; <a title="ORIGEN EL SALVADOR" href="entregadas.php"><img src="sv.jpg" alt="Los Tejos" height="50"  /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               EL SALVADOR COLOR DIGITAL   &nbsp;&nbsp;&nbsp;&nbsp; <a title="ORIGEN EL SALVADOR" href="entregadas.php"><img src="assets/images/sv.jpg" alt="Los Tejos" height="50"  /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   &nbsp;&nbsp;&nbsp;&nbsp;
 
-                   RIM DE C.A (COLOR DIGITAL)  &nbsp;&nbsp;&nbsp;&nbsp;<a title="ORIGEN NICARAGUA" href="entregadas_nc.php"><img src="nc.png" alt="Los Tejos" height="50"  /></a>
+                   RIM DE C.A (COLOR DIGITAL)  &nbsp;&nbsp;&nbsp;&nbsp;<a title="ORIGEN NICARAGUA" href="entregadas_nc.php"><img src="assets/images/nc.png" alt="Los Tejos" height="50"  /></a>
 
             
 

@@ -728,10 +728,10 @@ $consulta2020 = mysqli_query($conexion,"select t1.id_logistica, t1.id_orden, t1.
  
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
  
-    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $row['id_orden'];?>&&x=cargando" ><img src="cargando.png"  width="100"></a>
-    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $row['id_orden'];?>&&x=evento" ><img src="evento.png"  width="100"></a>
-    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $row['id_orden'];?>&&x=entrega" ><img src="entrega.png"  width="100"></a>
-    <a href="#"><img src="instructivo.png" width="100"></a>
+    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $row['id_orden'];?>&&x=cargando" ><img src="assets/images/cargando.png"  width="100"></a>
+    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $row['id_orden'];?>&&x=evento" ><img src="assets/images/evento.png"  width="100"></a>
+    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $row['id_orden'];?>&&x=entrega" ><img src="assets/images/entrega.png"  width="100"></a>
+    <a href="#"><img src="assets/images/instructivo.png" width="100"></a>
 
  
 

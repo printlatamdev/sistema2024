@@ -625,10 +625,10 @@ while($rowlog = mysqli_fetch_assoc($conlogistica)){
 
 <div class="col-lg-3 col-md-4 col-xs-6 thumb">
  
-    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $idorden;?>&&x=cargando&&p=NI" ><img src="cargando.png"  width="100"></a>
-    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $idorden;?>&&x=evento&&p=NI" ><img src="evento.png"  width="100"></a>
-    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $idorden;?>&&x=entrega&&p=NI" ><img src="entrega.png"  width="100"></a>
-    <a href="#"><img src="instructivo.png" width="100"></a>
+    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $idorden;?>&&x=cargando&&p=NI" ><img src="assets/images/cargando.png"  width="100"></a>
+    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $idorden;?>&&x=evento&&p=NI" ><img src="assets/images/evento.png"  width="100"></a>
+    <a data-fancybox data-type="iframe" href="fotos_nuevo.php?id_orden=<? echo $idorden;?>&&x=entrega&&p=NI" ><img src="assets/images/entrega.png"  width="100"></a>
+    <a href="#"><img src="assets/images/instructivo.png" width="100"></a>
 
  
 
