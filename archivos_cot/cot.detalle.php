@@ -484,9 +484,7 @@ font-weight: bold;
 
 
 
-<?
-include("footer.php");
-?>
+<?php include("suminstros/footer.php"); ?>
 
 
 

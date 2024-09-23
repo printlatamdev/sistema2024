@@ -926,9 +926,7 @@ input[type="file"] {
 </style>
 
 
-<?
-include("footer.php");
-?>
+<?php include("suminstros/footer.php"); ?>
 
 
 <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->

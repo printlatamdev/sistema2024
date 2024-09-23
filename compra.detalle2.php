@@ -1684,9 +1684,7 @@ $pruebaget = '';
 
 
 
-  <?php
-  include("footer.php");
-  ?>
+  <?php include("suminstros/footer.php"); ?>
 
 
 

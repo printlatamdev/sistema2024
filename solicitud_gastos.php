@@ -566,9 +566,7 @@ font-weight: bold;
 <!-- END CONTAINER -->
 
 
-<?
-include("footer.php");
-?>
+<?php include("suminstros/footer.php"); ?>
 
 
 
@@ -737,9 +735,7 @@ jQuery(document).ready(function() {
 
 
 
-<?
-include("footer.php");
-?>
+<?php include("suminstros/footer.php"); ?>
 
 </body>
 </html>

@@ -482,7 +482,7 @@ session_start();
 
 
 
-<? include("footer.php"); ?>
+<?php include("suminstros/footer.php"); ?>
 
 
 

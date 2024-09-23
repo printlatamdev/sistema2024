@@ -363,7 +363,7 @@ document.form1.submit();
 
 
 
-<? include("footer.php"); ?>
+<?php include("suminstros/footer.php"); ?>
 
 
 

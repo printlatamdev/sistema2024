@@ -1,17 +1,6 @@
-<style>
-    .btn {
-        margin-right: 10px;
-        /* Espacio entre los botones */
-    }
-</style>
+
 <?php
-
-session_start();
-
-$nivel = $_SESSION['nivel'] ?? null;
-$base = $_SESSION['base'] ?? null;
-
-include("conexion_ajax.php");
+require("db/session_ajax.php");
 
 
 $action = (isset($_REQUEST['action']) && $_REQUEST['action'] != NULL) ? $_REQUEST['action'] : '';
@@ -116,13 +105,10 @@ if ($action == 'ajax') {
                     $no = 1;
                     $finales = 0;
                     $nivel = $_SESSION['nivel'];
-
                     $tipo = "original";
                     while ($row = mysqli_fetch_assoc($query)) {
-
                         $finales++;
-                        $facturas = $row['factura'] ?? $facturas;
-
+                        $facturas = $row['factura'] ?? '';
                         $data = '#' . $row['id_orden'];
                         $data2 = $row['id_orden'];
                         $dataa = '#ab' . $row['id_orden'];
@@ -132,9 +118,7 @@ if ($action == 'ajax') {
                         $datalog = '#2i' . $row['id_orden'];
                         $data2log = "2i" . $row['id_orden'];
                         $server = $_SERVER['SERVER_ADDR'];
-
                         $archive = "../sistema2024/browser/elfinder6x67.php?year=2023&empresa=" . urlencode($row['empresa']) . "&marca=" . urlencode($row['marca']) . "&proyecto=" . urlencode($row['nombre']) . "&nivel=" . urlencode($nivel) . "&tipo=" . urlencode($tipo) . "&base=" . urlencode($base) . "&orderid=" . urlencode($row['id_orden']);
-
                         echo '
                         <tr style="font-size:85%;">
                           <td>' . htmlspecialchars($row['id_orden']) . '</td>
@@ -278,7 +262,6 @@ if ($action == 'ajax') {
                             }
                         }
                         echo '
-
                       <td>' . $row['numorden_compra'] . '</td>
                       <td>' . $row['empresa'] . '</td>
                       <td>' . $row['nombre_proyecto'] . '</td>

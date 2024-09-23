@@ -461,7 +461,7 @@ if (date('Y')!='20'.$_SESSION['year']) {
 
 
 
-<? include("footer.php"); ?>
+<?php include("suminstros/footer.php"); ?>
 
 
 
