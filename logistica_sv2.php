@@ -11,8 +11,8 @@ function conexion()
 {
 
   $server = 'localhost';
-  $usuario = 'admin';
-  $clave = 'AG784512';
+  $usuario = 'root';
+  $clave = '';
   $bd = 'esa22';
 
   $con = mysqli_connect($server, $usuario, $clave, $bd);
@@ -648,7 +648,7 @@ $conexion = conexion();
                     }
                   } elseif ($econtrado == 1 && $encontrado2 == 0) {
 
-                    $con221 = mysqli_connect('localhost', 'admin', 'AG784512', 'esa19');
+                    $con221 = mysqli_connect('localhost', 'root', '', 'esa19');
                     if (!$con221) {
                       die('Could not connect: ' . mysqli_error($con221));
                     }
@@ -666,7 +666,7 @@ $conexion = conexion();
                       echo '<td><div class="col-md-12"><b><h5><a href="cotizaciones_esa19/' . $cot_d2 . '" data-fancybox="preview"><span class="label label-info">' . $cot . '</span></a></div></td>';
                     }
                   } elseif ($encontrado == 0 && $encontrado2 == 1) {
-                    $con2233 = mysqli_connect('localhost', 'admin', 'AG784512', 'nica20');
+                    $con2233 = mysqli_connect('localhost', 'root', '', 'nica20');
                     if (!$con2233) {
                       die('Could not connect: ' . mysqli_error($con2233));
                     }
@@ -685,7 +685,7 @@ $conexion = conexion();
                     }
                   } elseif ($encontrado == 1 && $encontrado2 == 1) {
 
-                    $con225 = mysqli_connect('localhost', 'admin', 'AG784512', 'nica19');
+                    $con225 = mysqli_connect('localhost', 'root', '', 'nica19');
                     if (!$con225) {
                       die('Could not connect: ' . mysqli_error($con225));
                     }

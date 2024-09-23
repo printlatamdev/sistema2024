@@ -167,7 +167,7 @@ if ($action == 'ajax') {
                     echo '<div class="col-md-12"><b><h5><a href="cotizaciones_' . $base . '22/' . $cot_d . '" data-fancybox="preview"><span class="label label-info">' . htmlspecialchars($cot) . '</span></a></h5></div>';
                   }
                 } else {
-                  $con22 = mysqli_connect('localhost', 'admin', 'AG784512', 'esa22');
+                  $con22 = mysqli_connect('localhost', 'root', '', 'esa22');
                   if (!$con22) {
                     die('Could not connect: ' . mysqli_error($con));
                   }

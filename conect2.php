@@ -6,8 +6,8 @@
 	$year = $_SESSION['year'];
 	$db = $database.$year;
 
-	$username="admin";
-	$password="AG784512";
+	$username="root";
+	$password="";
 
 	$mysqli = new mysqli($host, $username, $password, $db);
 	if ($mysqli->connect_errno) {

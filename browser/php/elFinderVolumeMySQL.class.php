@@ -62,8 +62,8 @@ class elFinderVolumeMySQL extends elFinderVolumeDriver {
 	public function __construct() {
 		$opts = array(
 			'host'          => 'localhost',
-			'user'          => 'admin',
-			'pass'          => 'AG784512',
+			'user'          => 'root',
+			'pass'          => '',
 			'db'            => 'sistema_cl_15',
 			'port'          => null,
 			'socket'        => null,

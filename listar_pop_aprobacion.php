@@ -198,7 +198,7 @@ if ($action == 'ajax') {
                       echo '<div class="col-md-12"><a href="cotizaciones_' . $cotrut . '/' . $cot_d . '" data-fancybox="preview" style="font-size:15px;"><span class="label label-info">' . $cot . '</span></a></div>';
                     }
                   } elseif ($encontrado == 1 && $encontrado2 == 0) {
-                    $con22 = mysqli_connect('localhost', 'admin', 'AG784512', 'esa21');
+                    $con22 = mysqli_connect('localhost', 'root', '', 'esa21');
                     if (!$con22) {
                       die('Could not connect: ' . mysqli_error($con));
                     }
@@ -211,7 +211,7 @@ if ($action == 'ajax') {
                       echo '<div class="col-md-12"><b><h5><a href="cotizaciones_' . $base . '21/' . $cot_d2 . '" data-fancybox="preview"><span class="label label-info">' . $cot . '</span></a></div>';
                     }
                   } elseif ($encontrado == 0 && $encontrado2 == 1) {
-                    $con22 = mysqli_connect('localhost', 'admin', 'AG784512', 'nica21');
+                    $con22 = mysqli_connect('localhost', 'root', '', 'nica21');
                     if (!$con22) {
                       die('Could not connect: ' . mysqli_error($con));
                     }
@@ -229,7 +229,7 @@ if ($action == 'ajax') {
                     }
                   } elseif ($encontrado == 1 && $encontrado2 == 1) {
 
-                    $con22 = mysqli_connect('localhost', 'admin', 'AG784512', 'nica21');
+                    $con22 = mysqli_connect('localhost', 'root', '', 'nica21');
                     if (!$con22) {
                       die('Could not connect: ' . mysqli_error($con));
                     }
@@ -247,7 +247,7 @@ if ($action == 'ajax') {
                     }
                   } elseif ($encontrado3 == 1) {
 
-                    $con22 = mysqli_connect('localhost', 'admin', 'AG784512', 'esa21');
+                    $con22 = mysqli_connect('localhost', 'root', '', 'esa21');
                     if (!$con22) {
                       die('Could not connect: ' . mysqli_error($con));
                     }

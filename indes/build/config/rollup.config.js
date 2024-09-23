@@ -18,7 +18,7 @@ export default {
     file  : 'dist/js/adminlte.js',
     format: 'umd',
     globals,
-    name  : 'adminlte'
+    name  : 'rootlte'
   },
   plugins: [
     babel({

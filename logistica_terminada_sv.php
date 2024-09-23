@@ -9,14 +9,14 @@ $anio=$_SESSION['year'];
 $bd=$base.$anio;
 $nombre=$_SESSION['vsNombre'];
 
-$conexion = mysqli_connect('localhost','admin','AG784512',''.$bd.'');
+$conexion = mysqli_connect('localhost','root','',''.$bd.'');
 if (!$conexion) {
     die('Could not connect: ' . mysqli_error($conexion));
 }
 
 mysqli_select_db($conexion,''.$bd.'');
 
- if ($nombre=='admin') {
+ if ($nombre=='root') {
 
 
 

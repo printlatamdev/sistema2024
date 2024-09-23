@@ -9,8 +9,8 @@ function conexion()
 
 	$server = "localhost";
 	$server = 'localhost';
-	$usuario = 'admin';
-	$clave = 'AG784512';
+	$usuario = 'root';
+	$clave = '';
 	$base = $bd;
 
 	$con = mysqli_connect($server, $usuario, $clave, $base);

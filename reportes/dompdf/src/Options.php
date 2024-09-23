@@ -366,9 +366,9 @@ class Options
                 $this->setPdfBackend($value);
             } elseif ($key === 'pdflibLicense' || $key === 'pdflib_license') {
                 $this->setPdflibLicense($value);
-            } elseif ($key === 'adminUsername' || $key === 'admin_username') {
+            } elseif ($key === 'rootUsername' || $key === 'root_username') {
                 $this->setAdminUsername($value);
-            } elseif ($key === 'adminPassword' || $key === 'admin_password') {
+            } elseif ($key === 'rootPassword' || $key === 'root_password') {
                 $this->setAdminPassword($value);
             }
         }
@@ -433,9 +433,9 @@ class Options
             return $this->getPdfBackend();
         } elseif ($key === 'pdflibLicense' || $key === 'pdflib_license') {
             return $this->getPdflibLicense();
-        } elseif ($key === 'adminUsername' || $key === 'admin_username') {
+        } elseif ($key === 'rootUsername' || $key === 'root_username') {
             return $this->getAdminUsername();
-        } elseif ($key === 'adminPassword' || $key === 'admin_password') {
+        } elseif ($key === 'rootPassword' || $key === 'root_password') {
             return $this->getAdminPassword();
         }
         return null;

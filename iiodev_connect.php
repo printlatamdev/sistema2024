@@ -17,8 +17,8 @@ $year = $_SESSION['year'];
 function conexion($base, $year) {
     // Database credentials
     $host = 'localhost';
-    $username = 'admin';
-    $password = 'AG784512';
+    $username = 'root';
+    $password = '';
     $dbname = $base . $year; // Concatenate base and year for the database name
 
     // Create the connection

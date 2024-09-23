@@ -1,5 +1,5 @@
 <?php 
-	//$conexion=mysqli_connect('localhost','admin','AG784512','esa19');
+	//$conexion=mysqli_connect('localhost','root','','esa19');
      session_start(); 
  
 
@@ -16,7 +16,7 @@ $bd=$base.$anio;
 
 	$username="admin";  
 
-	$password="AG784512";
+	$password="";
 
 $id_cliente=$_POST['cliente'];
 $empre=$_POST['empre'];

@@ -57,7 +57,7 @@ th{
      $database=$_REQUEST['bs'];
      $ano=$_REQUEST['ano'];
 	   $username="admin";  
-       $password="AG784512";
+       $password="";
 		$mysqli = new mysqli($host, $username, $password, $database);
 		if ($mysqli->connect_errno) {
 		    echo "No se puede conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;

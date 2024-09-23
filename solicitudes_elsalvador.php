@@ -11,8 +11,8 @@ $nivel = $_SESSION['nivel'] ?? 0;
 function conexion(): mysqli
 {
     $server = 'localhost';
-    $usuario = 'admin';
-    $clave = 'AG784512';
+    $usuario = 'root';
+    $clave = '';
     global $bd;
 
     $con = new mysqli($server, $usuario, $clave, $bd);

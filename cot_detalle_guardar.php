@@ -21,7 +21,7 @@ $pruebaget=$_REQUEST['id_orden']; //obtengo la variable id orden
   include("connect3.php");
    $conexion = conexion();
 
- if ($nombre=='admin') {
+ if ($nombre=='root') {
 
 
 

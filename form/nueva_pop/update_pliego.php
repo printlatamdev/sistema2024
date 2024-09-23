@@ -11,7 +11,7 @@ $anio = '22';
 $bd = $base . $anio;
 $carpeta_pais = ($base == "esa") ? "EL_SALVADOR" : "NICARAGUA";
 
-$conexion = mysqli_connect('localhost', 'admin', 'AG784512', $bd);
+$conexion = mysqli_connect('localhost', 'root', '', $bd);
 if (!$conexion) {
     die('Could not connect: ' . mysqli_connect_error());
 }
@@ -21,7 +21,7 @@ mysqli_select_db($conexion, $bd);
 $host = "localhost";
 $database = $bd;
 $username = "admin";
-$password = "AG784512";
+$password = "";
 
 $id_detalle_pliego = $_REQUEST['id_detalle_pliego'];
 $id_detalle = $_POST['id_detalle'];

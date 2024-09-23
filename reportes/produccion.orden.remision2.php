@@ -160,7 +160,7 @@ body {
   
 
   <? 
-  if ($ruta_im=='Administracion') {
+  if ($ruta_im=='rootistracion') {
     # code...
   
 
@@ -261,7 +261,7 @@ $det="det".$i;
 
 		  ?>
 
-        <?if ($ruta_im=='Administracion') {
+        <?if ($ruta_im=='rootistracion') {
           # code...
         ?>
 
@@ -312,7 +312,7 @@ $det="det".$i;
 
 <?
 
-if ($ruta_im=='Administracion') {
+if ($ruta_im=='rootistracion') {
 
   
 
@@ -343,7 +343,7 @@ if ($ruta_im=='Administracion') {
  
 </tr>
 
-<?if ($ruta_im=='Administracion') {
+<?if ($ruta_im=='rootistracion') {
   # code...
 ?>
 <!-- para las firmas -->
@@ -372,7 +372,7 @@ if ($ruta_im=='Administracion') {
 </tr>-->
 
 <tr>
-<?if($ruta_im=='Administracion') {
+<?if($ruta_im=='rootistracion') {
 ?>
 <!--<td>cantidad</td>
 <td>
@@ -417,7 +417,7 @@ $pdf_gen = $dompdf->output();
 
 //se envia la impresion al impresor epson
 
-if($ruta_im=='Administracion'){
+if($ruta_im=='rootistracion'){
 file_put_contents("../DOCUMENTOS/ENVIOS/envio.pdf", $pdf_gen);
 //--echo "<br><br><center><h1>IMPRESION ENVIADA EN ADMINISTRACION.</center></h1>";
 //--echo'<center><td><img src="images/imp.gif"></td></tr></center>';  COMENTARIADA PARA MOSTRAR PDF EN LA PANTALLA

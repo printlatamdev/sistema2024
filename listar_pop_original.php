@@ -313,7 +313,7 @@ else{
                     echo'<div class="col-md-12"><a href="cotizaciones_'.$cotrut.'/'.$cot_d.'" data-fancybox="preview" style="font-size:15px;"><span class="label label-info">'.$cot.'</span></a></div>';
                 }
             }elseif($encontrado==1 && $encontrado2==0){
-              $con22 = mysqli_connect('localhost','admin','AG784512','esa20');
+              $con22 = mysqli_connect('localhost','root','','esa20');
               if (!$con22) {
                 die('Could not connect: ' . mysqli_error($con));
               }
@@ -328,7 +328,7 @@ else{
              echo'<div class="col-md-12"><b><h5><a href="cotizaciones_'.$base.'20/'.$cot_d2.'" data-fancybox="preview"><span class="label label-info">'.$cot.'</span></a></div>';
           }
         }elseif ($encontrado==0 && $encontrado2==1) {
-          $con22 = mysqli_connect('localhost','admin','AG784512','nica20');
+          $con22 = mysqli_connect('localhost','root','','nica20');
           if (!$con22) {
             die('Could not connect: ' . mysqli_error($con));
           }
@@ -341,7 +341,7 @@ else{
             echo'<div class="col-md-12"><b><h5><a href="cotizaciones_nica20/'.$cot_d2.'" data-fancybox="preview"><span class="label label-info">'.$cot.'</span></a></div>';
           }
         }elseif ($encontrado==1 && $encontrado2==1) {
-          $con22 = mysqli_connect('localhost','admin','AG784512','nica19');
+          $con22 = mysqli_connect('localhost','root','','nica19');
           if (!$con22) {
             die('Could not connect: ' . mysqli_error($con));
           }
@@ -354,7 +354,7 @@ else{
             echo'<div class="col-md-12"><b><h5><a href="../sistema/cotizaciones_nica19/'.$cot_d2.'" data-fancybox="preview"><span class="label label-info">'.$cot.'</span></a></div>';
           }
         }elseif ($encontrado3==1) {
-           $con22 = mysqli_connect('localhost','admin','AG784512','esa20');
+           $con22 = mysqli_connect('localhost','root','','esa20');
            if (!$con22) {
               die('Could not connect: ' . mysqli_error($con));
            }

@@ -213,7 +213,7 @@ if ($encontrado==0) {
                             }
 }else{
 
-$con22 = mysqli_connect('localhost','admin','AG784512','esa20');
+$con22 = mysqli_connect('localhost','root','','esa20');
 if (!$con22) {
     die('Could not connect: ' . mysqli_error($con));
 }

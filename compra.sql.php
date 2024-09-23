@@ -473,7 +473,7 @@ try {
 
     // Configuración del correo electrónico
     $mail->setFrom('it@printlatam.com', 'Bodega Color Digital');
-    $mail->addAddress('compras@colordigital.co', 'Administrador de Bodega');
+    $mail->addAddress('compras@colordigital.co', 'rootistrador de Bodega');
 
     // Destinatarios condicionales
     if (isset($_REQUEST['arqui'])) {

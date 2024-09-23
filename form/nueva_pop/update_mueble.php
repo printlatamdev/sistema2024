@@ -10,7 +10,7 @@ $carpeta_pais = $base === "esa" ? "EL_SALVADOR" : "NICARAGUA";
 $origen = $base === "esa" ? "SV" : "NI";
 
 // Conexión a la base de datos
-$conexion = new mysqli('localhost', 'admin', 'AG784512', $bd);
+$conexion = new mysqli('localhost', 'root', '', $bd);
 if ($conexion->connect_error) {
     die('Error de conexión: ' . $conexion->connect_error);
 }

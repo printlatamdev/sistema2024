@@ -13,7 +13,7 @@ $bd = $base . $anio;
 // Database connection details
 $host = "localhost";
 $username = "admin";
-$password = "AG784512";
+$password = "";
 
 // Establecer conexión mysqli
 $mysqli = new mysqli($host, $username, $password, $bd);

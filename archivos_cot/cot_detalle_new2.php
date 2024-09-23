@@ -13,7 +13,7 @@ $anio = $_SESSION['year'];
 $bd = $_SESSION['base'] . $anio;
 
 // Conexión a la base de datos
-$con = mysqli_connect('localhost', 'admin', 'AG784512', $bd);
+$con = mysqli_connect('localhost', 'root', '', $bd);
 if (!$con) {
     die('Could not connect: ' . mysqli_connect_error());
 }
@@ -24,7 +24,7 @@ $conexion2 = conexion2();
 $id_orden = isset($_REQUEST['orden']) ? $_REQUEST['orden'] : '';
 
 // Consulta para obtener datos según el nombre del usuario
-if ($nombre == 'admin') {
+if ($nombre == 'root') {
     $id = $_SESSION['vsIdtemporal'];
     $query = "SELECT nombre FROM empresa WHERE id_empresa = ?";
     $stmt = mysqli_prepare($con, $query);

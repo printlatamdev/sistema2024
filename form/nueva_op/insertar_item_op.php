@@ -7,7 +7,7 @@ $anio = $_SESSION['year'];
 $bd = $base . $anio;
 $host = "localhost";
 $username = "admin";
-$password = "AG784512";
+$password = "";
 $database = $bd;
 
 // Establish connection

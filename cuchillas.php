@@ -12,7 +12,7 @@ $anio=$_SESSION['year'];
 $nivel=$_SESSION['nivel'];
 $bd=$base.$anio;
 
-$con = mysqli_connect('localhost','admin','AG784512',''.$bd.'');
+$con = mysqli_connect('localhost','root','',''.$bd.'');
 if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
 }

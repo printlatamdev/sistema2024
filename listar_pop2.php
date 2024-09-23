@@ -248,7 +248,7 @@ if ($encontrado==0 && $encontrado2==0) {
                  
 }elseif($econtrado==1 && $encontrado2==0){
 
-$con22 = mysqli_connect('localhost','admin','AG784512','esa19');
+$con22 = mysqli_connect('localhost','root','','esa19');
 if (!$con22) {
     die('Could not connect: ' . mysqli_error($con));
 }
@@ -268,7 +268,7 @@ while($row92 = mysqli_fetch_assoc($result)){
 
 
 }elseif ($encontrado==0 && $encontrado2==1) {
- $con22 = mysqli_connect('localhost','admin','AG784512','nica20');
+ $con22 = mysqli_connect('localhost','root','','nica20');
 if (!$con22) {
     die('Could not connect: ' . mysqli_error($con));
 }
@@ -290,7 +290,7 @@ while($row92 = mysqli_fetch_assoc($result)){
 
 elseif ($encontrado==1 && $encontrado2==1) {
 
-  $con22 = mysqli_connect('localhost','admin','AG784512','nica19');
+  $con22 = mysqli_connect('localhost','root','','nica19');
 if (!$con22) {
     die('Could not connect: ' . mysqli_error($con));
 }

@@ -25,13 +25,13 @@ module.exports = function (grunt) { // jshint ignore:line
     notify: {
       less: {
         options: {
-          title  : 'AdminLTE',
+          title  : 'rootLTE',
           message: 'LESS finished running'
         }
       },
       js  : {
         options: {
-          title  : 'AdminLTE',
+          title  : 'rootLTE',
           message: 'JS bundler finished running'
         }
       }
@@ -142,7 +142,7 @@ module.exports = function (grunt) { // jshint ignore:line
         + '*/\n\n'
         + '// Make sure jQuery has been loaded\n'
         + 'if (typeof jQuery === \'undefined\') {\n'
-        + 'throw new Error(\'AdminLTE requires jQuery\')\n'
+        + 'throw new Error(\'rootLTE requires jQuery\')\n'
         + '}\n\n'
       },
       dist   : {

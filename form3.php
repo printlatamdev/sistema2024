@@ -12,7 +12,7 @@ $app_ap = $_REQUEST['approve'];
 $app_id = $_REQUEST['app_status'];
 
 
-$conexion = mysqli_connect('localhost', 'admin', 'AG784512', '' . $bd . '');
+$conexion = mysqli_connect('localhost', 'root', '', '' . $bd . '');
 if (!$conexion) {
   die('Could not connect: ' . mysqli_error($conexion));
 }
@@ -34,7 +34,7 @@ $info_stat = mysqli_fetch_array($query_s);
 
 if (isset($app_ap)) {
   // Create connection
-  $conn = new mysqli('localhost', 'admin', 'AG784512', '' . $bd . '');
+  $conn = new mysqli('localhost', 'root', '', '' . $bd . '');
   // Check connection
   if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);

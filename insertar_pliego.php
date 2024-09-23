@@ -1,12 +1,12 @@
 <?php
-	//$conexion=mysqli_connect('localhost','admin','AG784512','esa19');
+	//$conexion=mysqli_connect('localhost','root','','esa19');
     	$host="localhost";
 
 	$database="esa20";
 
 	$username="admin";
 
-	$password="AG784512";
+	$password="";
 
 $pliego=$_FILES['pliego']['name'];
 $ruta=$_FILES['pliego']['tmp_name'];

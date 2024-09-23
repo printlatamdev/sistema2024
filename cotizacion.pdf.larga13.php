@@ -60,7 +60,7 @@ th{
      $database=$_REQUEST['bs'];
      $ano=$_REQUEST['ano'];
 	   $username="admin";  
-       $password="AG784512";
+       $password="";
 
      
 

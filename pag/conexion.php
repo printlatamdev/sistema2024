@@ -6,8 +6,8 @@
 	---------------------------*/
     // DB credentials.
 	define('DB_HOST','localhost');
-	define('DB_USER','admin');
-	define('DB_PASS','AG784512');
+	define('DB_USER','root');
+	define('DB_PASS','');
 	define('DB_NAME','esa20');
 	# conectare la base de datos
     $con=@mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);

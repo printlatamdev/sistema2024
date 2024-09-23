@@ -1,7 +1,7 @@
 
 <?php
 
-$con = mysqli_connect('localhost','admin','AG784512','esa20');
+$con = mysqli_connect('localhost','root','','esa20');
 if (!$con) {
     die('Could not connect: ' . mysqli_error($con));
 }

@@ -23,7 +23,7 @@ function getConn($base, $anio) {
     $dbName = ($base === 'esa') ? 'esa' . $anio : 'nica' . $anio;
 
     // Conecta a la base de datos
-    $mysqli = mysqli_connect('localhost', 'admin', 'AG784512', $dbName);
+    $mysqli = mysqli_connect('localhost', 'root', '', $dbName);
 
     // Verifica si la conexión fue exitosa
     if (!$mysqli) {

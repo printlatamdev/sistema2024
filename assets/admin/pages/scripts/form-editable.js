@@ -84,7 +84,7 @@ var FormEditable = function () {
                         text: 'Support'
                     }, {
                         value: 5,
-                        text: 'Admin'
+                        text: 'root'
                     }
                 ];
                 log(settings, this);

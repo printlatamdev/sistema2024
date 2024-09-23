@@ -2,8 +2,8 @@
 function getConn() {
     // Parámetros de conexión
     $host = 'localhost';
-    $user = 'admin';
-    $password = 'AG784512';
+    $user = 'root';
+    $password = '';
     $database = 'esa22';
 
     // Crear una nueva conexión

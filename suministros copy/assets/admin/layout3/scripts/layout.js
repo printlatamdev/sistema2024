@@ -3,9 +3,9 @@ Core script to handle the entire theme and core functions
 **/
 var Layout = function () {
 
-    var layoutImgPath = 'admin/layout3/img/';
+    var layoutImgPath = 'root/layout3/img/';
 
-    var layoutCssPath = 'admin/layout3/css/';
+    var layoutCssPath = 'root/layout3/css/';
 
     var resBreakpointMd = Metronic.getResponsiveBreakpoint('md');
 

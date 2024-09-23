@@ -15,7 +15,7 @@ $nivel = $_SESSION['nivel'];
 $bd = $base . $anio;
 
 // Database connection
-$con = new mysqli('localhost', 'admin', 'AG784512', $bd);
+$con = new mysqli('localhost', 'root', '', $bd);
 if ($con->connect_error) {
     die('Database connection failed: ' . $con->connect_error);
 }

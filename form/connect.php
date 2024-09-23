@@ -7,8 +7,8 @@ session_start();
  function conexion(){
 
 	$server = 'localhost';
-	$usuario = 'admin';
-	$clave = 'AG784512';
+	$usuario = 'root';
+	$clave = '';
 	$bd = "nica21";
 
     $con =mysqli_connect($server, $usuario, $clave, $bd);

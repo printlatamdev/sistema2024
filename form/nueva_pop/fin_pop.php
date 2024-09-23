@@ -7,7 +7,7 @@ $anio = '22';
 $bd = $base . $anio;
 
 // Establece la conexión a la base de datos
-$con = mysqli_connect('localhost', 'admin', 'AG784512', $bd);
+$con = mysqli_connect('localhost', 'root', '', $bd);
 
 // Verifica la conexión
 if (!$con) {

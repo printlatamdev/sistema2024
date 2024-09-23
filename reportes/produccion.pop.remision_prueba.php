@@ -272,7 +272,7 @@ echo'<center><td><img src="images/imp.gif"></td></tr></center>';
 exec('lpr -P produccion /mnt/htdocs/html/sistema2020/DOCUMENTOS/ENVIOS/envio6.pdf');*/
 
 
-if($ruta_im=='admin'){
+if($ruta_im=='root'){
   file_put_contents("../DOCUMENTOS/ENVIOS/envio.pdf", $pdf_gen);
   //--echo "<br><br><center><h1>IMPRESION ENVIADA EN ADMINISTRACION.</center></h1>";
   //--echo'<center><td><img src="images/imp.gif"></td></tr></center>';

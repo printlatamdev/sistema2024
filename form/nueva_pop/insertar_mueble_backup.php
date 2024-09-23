@@ -1,5 +1,5 @@
 <?php 
-	//$conexion=mysqli_connect('localhost','admin','AG784512','esa19');
+	//$conexion=mysqli_connect('localhost','root','','esa19');
   session_start();
   $base=$_SESSION['base'];
   $anio='22';
@@ -19,7 +19,7 @@ echo'<script type="text/javascript">console.log("IF SESSION ESA");</script>';
     
 //
 
-$conexion = mysqli_connect('localhost','admin','AG784512',''.$bd.'');
+$conexion = mysqli_connect('localhost','root','',''.$bd.'');
 if (!$conexion) {
     die('Could not connect: ' . mysqli_error($conexion));
 }
@@ -31,7 +31,7 @@ mysqli_select_db($conexion,''.$bd.'');
 
 	$username="admin";  
 
-	$password="AG784512";
+	$password="";
 
 
   $mysqli = new mysqli($host, $username, $password, $database);

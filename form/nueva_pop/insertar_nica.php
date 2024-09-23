@@ -1,11 +1,11 @@
 <?php 
-  //$conexion=mysqli_connect('localhost','admin','AG784512','esa19');
+  //$conexion=mysqli_connect('localhost','root','','esa19');
 session_start();
 //$base=$_SESSION['base'];
 //$anio=$_SESSION['year'];
 //$bd=$base.$anio;
 
-$conexion = mysqli_connect('localhost','admin','AG784512','nica22');
+$conexion = mysqli_connect('localhost','root','','nica22');
 if (!$conexion) {
     die('Could not connect: ' . mysqli_error($conexion));
 }
@@ -17,7 +17,7 @@ mysqli_select_db($conexion,'nica22');
 
   $username="admin";  
 
-  $password="AG784512";
+  $password="";
 
 $id_empresa=$_POST['cliente'];
 $id_contacto=$_POST['contacto'];

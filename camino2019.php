@@ -19,7 +19,7 @@ $nombre=$_SESSION['vsNombre'];
 $pruebaget=$_REQUEST['id_orden']; //obtengo la variable id orden 
   include("connect.php");
    $conexion = conexion();
-if ($nombre=='admin') {
+if ($nombre=='root') {
 
 
 

@@ -12,7 +12,7 @@ $anio = '22';
 $bd = $base . $anio;
 
 // Create connection
-$conexion = new mysqli('localhost', 'admin', 'AG784512', $bd);
+$conexion = new mysqli('localhost', 'root', '', $bd);
 
 // Check connection
 if ($conexion->connect_error) {

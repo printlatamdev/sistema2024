@@ -8,7 +8,7 @@ $nombre = $_POST["nom"];
 
     $username="admin";  
 
-    $password="AG784512";
+    $password="";
 //$nombres=1;
     $mysqli = new mysqli($host, $username, $password, $database);
     if ($mysqli->connect_errno) {

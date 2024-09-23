@@ -21,7 +21,7 @@ if ($_SESSION['base'] == "esa") {
 }
 
 
-$con = mysqli_connect('localhost', 'admin', 'AG784512', '' . $bd . '');
+$con = mysqli_connect('localhost', 'root', '', '' . $bd . '');
 if (!$con) {
   die('Could not connect: ' . mysqli_error($con));
 }

@@ -7,7 +7,7 @@ $anio = 22;  // Año fijo, reemplaza si es necesario
 $bd = $base . $anio;
 
 // Conexión a la base de datos usando MySQLi
-$mysqli = new mysqli('localhost', 'admin', 'AG784512', $bd);
+$mysqli = new mysqli('localhost', 'root', '', $bd);
 if ($mysqli->connect_error) {
     die('Error de conexión MySQLi: ' . $mysqli->connect_error);
 }

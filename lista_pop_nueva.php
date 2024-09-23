@@ -7,7 +7,7 @@ $anio = $_SESSION['year'];
 $nivel = $_SESSION['nivel'];
 $bd = $base . $anio;
 $nombre = $_SESSION['vsNombre'];
-$exito = $_REQUEST['exito'];
+$exito = $_REQUEST['exito'] ?? '';
 ?>
 
 <!DOCTYPE html>

@@ -349,7 +349,7 @@ array(
 										'driver'        => 'LocalFileSystem',           // driver for accessing file system (REQUIRED)
 										'path'          => $pt1,                 // path to files (REQUIRED)
 										'URL'           => $pt1, // URL to files (REQUIRED)
-										'alias'         => 'ADMINISTRACION',
+										'alias'         => 'rootISTRACION',
 										'defaults' => array('read' => true, 'write' => true),
 										//'uploadDeny'    => array('all'),                // All Mimetypes not allowed to upload
 										//'uploadAllow'   => array('image', 'text/plain'),// Mimetype `image` and `text/plain` allowed to upload
@@ -521,7 +521,7 @@ array(
 											'driver'        => 'LocalFileSystem',           // driver for accessing file system (REQUIRED)
 											'path'          => $pt1,                 // path to files (REQUIRED)
 											'URL'           => $pt1, // URL to files (REQUIRED)
-											'alias'         => 'ADMINISTRACION',
+											'alias'         => 'rootISTRACION',
 											'defaults' => array('read' => true, 'write' => true),
 											//'uploadDeny'    => array('all'),                // All Mimetypes not allowed to upload
 											//'uploadAllow'   => array('image', 'text/plain'),// Mimetype `image` and `text/plain` allowed to upload

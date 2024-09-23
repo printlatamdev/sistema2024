@@ -11,8 +11,8 @@ if (session_status() === PHP_SESSION_NONE) {
 
 // Database connection parameters
 $host = 'localhost';
-$user = 'admin';
-$password = 'AG784512';
+$user = 'root';
+$password = '';
 $base = $_SESSION['base'];
 $year = $_SESSION['year'];
 $dbName = $base . $year;
@@ -27,7 +27,7 @@ if ($con->connect_error) {
 $nombre = $_SESSION['vsNombre'];
 $id = $_SESSION['vsIdempresa'];
 
-if ($nombre === 'admin') {
+if ($nombre === 'root') {
     $id = $_SESSION['vsIdtemporal'];
     $query = "SELECT nombre FROM empresa WHERE id_empresa='$id'";
     $result = $con->query($query);

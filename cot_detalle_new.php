@@ -12,7 +12,7 @@ $nombre = $_SESSION['vsNombre'];
 
 $orden = $_REQUEST['orden'];
 $bd = $base . $anio;
-$con = new mysqli('localhost', 'admin', 'AG784512', $bd);
+$con = new mysqli('localhost', 'root', '', $bd);
 
 // Check connection
 if ($con->connect_error) {
@@ -23,7 +23,7 @@ if ($con->connect_error) {
 $id_orden = isset($_REQUEST['id_orden']) ? $con->real_escape_string($_REQUEST['id_orden']) : '';
 
 // Determine if user is admin and adjust data if necessary
-if ($nombre == 'admin') {
+if ($nombre == 'root') {
   $id_temporal = $_SESSION['vsIdtemporal'];
   $query = "SELECT nombre FROM empresa WHERE id_empresa = ?";
   $stmt = $con->prepare($query);

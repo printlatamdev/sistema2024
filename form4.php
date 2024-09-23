@@ -16,7 +16,7 @@ $anio = '22';
 $bd = $base . $anio;
 
 // Conexión a la base de datos
-$conexion = mysqli_connect('localhost', 'admin', 'AG784512', $bd);
+$conexion = mysqli_connect('localhost', 'root', '', $bd);
 if (!$conexion) {
   die('No se pudo conectar: ' . mysqli_connect_error());
 }

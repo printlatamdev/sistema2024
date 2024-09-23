@@ -15,7 +15,7 @@ $nombre=$_SESSION['vsNombre'];
 $pruebaget=$_REQUEST['id_orden']; //obtengo la variable id orden 
 
 
-if ($nombre=='admin') {
+if ($nombre=='root') {
 
 
 

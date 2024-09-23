@@ -1,6 +1,6 @@
 <?php
 
-$conn = oci_connect('admin', 'admin', '20.185.57.106/OracleServer');
+$conn = oci_connect('root', 'root', '20.185.57.106/OracleServer');
 if (!$conn) {
     $e = oci_error();
     trigger_error(htmlentities($e['message'], ENT_QUOTES), E_USER_ERROR);

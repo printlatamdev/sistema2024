@@ -7,8 +7,8 @@ $anio = '22';
 $bd = $base . $anio;
 
 $host = 'localhost';
-$username = 'admin';
-$password = 'AG784512';
+$username = 'root';
+$password = '';
 
 // Crear una instancia de mysqli
 $mysqli = new mysqli($host, $username, $password, $bd);

@@ -14,7 +14,7 @@
 
     $username="admin";  
 
-    $password="AG784512";
+    $password="";
 
     $mysqli = new mysqli($host, $username, $password, $database);
     if ($mysqli->connect_errno) {

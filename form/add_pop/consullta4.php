@@ -7,12 +7,12 @@ $base = $_SESSION['base'] ?? '';
 $anio = $_SESSION['year'] ?? '';
 $bd = $base . $anio;
 
-$conexion = mysqli_connect('localhost', 'admin', 'AG784512', $bd);
+$conexion = mysqli_connect('localhost', 'root', '', $bd);
 if (!$conexion) {
 	die('Could not connect: ' . mysqli_error($conexion));
 }
 
-$mysqli = new mysqli('localhost', 'admin', 'AG784512', $bd);
+$mysqli = new mysqli('localhost', 'root', '', $bd);
 if ($mysqli->connect_errno) {
 	echo "No se puede conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 	exit();

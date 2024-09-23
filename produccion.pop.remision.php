@@ -310,7 +310,7 @@ echo'<center><td><img src="images/imp.gif"></td></tr></center>';
 exec('lpr -P produccion /mnt/htdocs/html/sistema2020/DOCUMENTOS/ENVIOS/envio6.pdf');*/
 
 
-if($ruta_im=='admin'){
+if($ruta_im=='root'){
 $aleatorio = mt_rand(0,1000);
 
   file_put_contents("../ORDENES_POP/EL_SALVADOR/".$id."/DOCUMENTOS_ORDEN_".$id."/envio".$aleatorio.".pdf", $pdf_gen);

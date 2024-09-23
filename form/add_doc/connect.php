@@ -7,8 +7,8 @@ $bd=$base.$anio;
  function conexion(){
 
 	$server = 'localhost';
-	$usuario = 'admin';
-	$clave = 'AG784512';
+	$usuario = 'root';
+	$clave = '';
 	$bd = 'esa20';
 
     $con =mysqli_connect($server, $usuario, $clave, $bd);

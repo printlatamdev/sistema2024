@@ -13,7 +13,7 @@
     $anio=22;
 $bd=$base.$anio;
 
-$conexion = mysqli_connect('localhost','admin','AG784512',''.$bd.'');
+$conexion = mysqli_connect('localhost','root','',''.$bd.'');
 if (!$conexion) {
     die('Could not connect: ' . mysqli_error($conexion));
 }
@@ -25,7 +25,7 @@ mysqli_select_db($conexion,''.$bd.'');
 
 	$username="admin";  
 
-	$password="AG784512";
+	$password="";
 
 	$mysqli = new mysqli($host, $username, $password, $database);
 	if ($mysqli->connect_errno) {

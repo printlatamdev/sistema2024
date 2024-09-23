@@ -5,7 +5,7 @@ $base = $_SESSION['base'];
 $anio = 22;
 $bd = $base . $anio;
 
-$mysqli = new mysqli('localhost', 'admin', 'AG784512', $bd);
+$mysqli = new mysqli('localhost', 'root', '', $bd);
 if ($mysqli->connect_errno) {
     die("No se puede conectar a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error);
 }

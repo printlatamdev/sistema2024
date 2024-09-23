@@ -16,7 +16,7 @@ $nombre=$_SESSION['vsNombre'];
    include("connect.php");
    $conexion = conexion();
 
- if ($nombre=='admin') {
+ if ($nombre=='root') {
 
 
 

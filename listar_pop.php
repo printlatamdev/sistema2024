@@ -202,7 +202,7 @@ if ($action == 'ajax') {
                                             echo '<div class="col-md-12"><a href="cotizaciones_' . htmlspecialchars($base) . '22/' . htmlspecialchars($cot_d) . '" data-fancybox="preview" style="font-size:15px;"><span class="label label-info">' . htmlspecialchars($cot) . '</span></a></div>';
                                         }
                                     } elseif ($encontrado == 1 && $encontrado2 == 0) {
-                                        $con22 = mysqli_connect('localhost', 'admin', 'AG784512', 'esa22');
+                                        $con22 = mysqli_connect('localhost', 'root', '', 'esa22');
                                         if (!$con22) {
                                             die('Could not connect: ' . mysqli_error($con));
                                         }
@@ -219,7 +219,7 @@ if ($action == 'ajax') {
                                             echo '<div class="col-md-12"><b><h5><a href="cotizaciones_' . htmlspecialchars($base) . '22/' . htmlspecialchars($cot_d2) . '" data-fancybox="preview"><span class="label label-info">' . htmlspecialchars($cot) . '</span></a></h5></b></div>';
                                         }
                                     } elseif ($encontrado == 0 && $encontrado2 == 1) {
-                                        $con22 = mysqli_connect('localhost', 'admin', 'AG784512', 'nica22');
+                                        $con22 = mysqli_connect('localhost', 'root', '', 'nica22');
                                         if (!$con22) {
                                             die('Could not connect: ' . mysqli_error($con));
                                         }
@@ -236,7 +236,7 @@ if ($action == 'ajax') {
                                             echo '<div class="col-md-12"><b><h5><a href="cotizaciones_nica22/' . htmlspecialchars($cot_d2) . '" data-fancybox="preview"><span class="label label-info">' . htmlspecialchars($cot) . '</span></a></h5></b></div>';
                                         }
                                     } elseif ($encontrado == 1 && $encontrado2 == 1) {
-                                        $con22 = mysqli_connect('localhost', 'admin', 'AG784512', 'nica22');
+                                        $con22 = mysqli_connect('localhost', 'root', '', 'nica22');
                                         if (!$con22) {
                                             die('Could not connect: ' . mysqli_error($con));
                                         }
@@ -253,7 +253,7 @@ if ($action == 'ajax') {
                                             echo '<div class="col-md-12"><b><h5><a href="../sistema2024/cotizaciones_nica20/' . htmlspecialchars($cot_d2) . '" data-fancybox="preview"><span class="label label-info">' . htmlspecialchars($cot) . '</span></a></h5></b></div>';
                                         }
                                     } elseif ($encontrado3 == 1) {
-                                        $con22 = mysqli_connect('localhost', 'admin', 'AG784512', 'esa22');
+                                        $con22 = mysqli_connect('localhost', 'root', '', 'esa22');
                                         if (!$con22) {
                                             die('Could not connect: ' . mysqli_error($con));
                                         }
