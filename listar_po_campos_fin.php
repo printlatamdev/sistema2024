@@ -1,10 +1,5 @@
 <?php
-session_start();
-$nivel = $_SESSION['nivel'];
-
-/* Connect To Database*/
-require_once("conexion_ajax.php");
-
+require("db/session_ajax.php");
 
 $action = (isset($_REQUEST['action']) && $_REQUEST['action'] != NULL) ? $_REQUEST['action'] : '';
 if ($action == 'ajax') {
@@ -12,7 +7,7 @@ if ($action == 'ajax') {
 
   $tables = "pop_proyecto";
   $campos = "*";
-  $sWhere = " pop_proyecto.nombre LIKE '%" . $query . "%' and estado=0";
+  $sWhere = " pop_proyecto.nombre where estado=0";
   $sWhere .= " order by pop_proyecto.id_proyecto desc ";
 
 
@@ -33,9 +28,6 @@ if ($action == 'ajax') {
   } else {
     $count_query = mysqli_query($con, "select * from campos where estado='0'");
   }
-
-
-
 
   if ($row = mysqli_fetch_array($count_query)) {
     $numrows = mysqli_num_rows($count_query);
@@ -101,7 +93,6 @@ if ($action == 'ajax') {
             $dataa2 = 'ab' . $row['id_orden'];
             $datab = '#cd' . $row['id_orden'];
             $datab2 = 'cd' . $row['id_orden'];
-            session_start();
 
             $nivel = $_SESSION['nivel'];
 

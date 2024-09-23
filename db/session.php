@@ -9,7 +9,7 @@ $base = $_SESSION['base'];
 $anio = $_SESSION['year'];
 $bd = $base . $anio;
 $nombre = $_SESSION['vsNombre'];
-$nivel = $_SESSION['nivel'];
+$nivel = $_SESSION['nivel'] ?? '';
 
 require("connectin.php");
 
