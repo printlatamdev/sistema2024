@@ -146,7 +146,7 @@ h6 {
     $host = "localhost";
     $database = $_REQUEST['bs'];
     $ano = $_REQUEST['ano'];
-    $username = "admin";
+    $username = "root";
     $password = "";
 
 

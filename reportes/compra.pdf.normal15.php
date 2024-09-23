@@ -68,7 +68,7 @@ session_start();
 
 	$host = "localhost";
 	$database = $_REQUEST['bs'];
-	$username = "admin";
+	$username = "root";
 	$password = "CP784512";
 	$mysqli = new mysqli($host, $username, $password, $database);
 	if ($mysqli->connect_errno) {

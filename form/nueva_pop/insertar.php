@@ -22,7 +22,7 @@ $carpeta_pais = ($base === "esa") ? "EL_SALVADOR" : "NICARAGUA";
 
 // Configuración de conexión a la base de datos
 $host = "localhost";
-$username = "admin";
+$username = "root";
 $password = "";
 $database = $bd;
 

@@ -4,7 +4,7 @@
 
 	$database="nica20";
 
-	$username="admin";  
+	$username="root";  
 
 	$password="";
 

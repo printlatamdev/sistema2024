@@ -5,7 +5,7 @@
   $bd=$base.$anio;
   $host="localhost";
   $database=$bd;
-  $username="admin";
+  $username="root";
   $password="";
 
   $mysqli = new mysqli($host,$username,$password,$database);

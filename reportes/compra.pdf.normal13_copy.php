@@ -57,7 +57,7 @@ session_start();
 
 	$host = "localhost";
 	$database = "esa22";
-	$username = "admin";
+	$username = "root";
 	$password = "";
 	$mysqli = new mysqli($host, $username, $password, 'esa22');
 	if ($mysqli->connect_errno) {

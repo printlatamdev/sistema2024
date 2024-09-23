@@ -18,7 +18,7 @@ mysqli_select_db($conexion,''.$bd.'');
 
 	$database=$bd;
 
-	$username="admin";  
+	$username="root";  
 
 	$password="";
 	$mysqli = new mysqli($host, $username, $password, $database);

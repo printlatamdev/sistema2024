@@ -7,7 +7,7 @@
 
 	$database=$bd;
 
-	$username="admin";  
+	$username="root";  
 
 	$password="";
 

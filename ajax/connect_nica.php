@@ -5,7 +5,7 @@
 
 	$database="nica22";
 
-	$username="admin";  
+	$username="root";  
 
 	$password="";
 

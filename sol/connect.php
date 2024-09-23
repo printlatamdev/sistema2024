@@ -5,7 +5,7 @@
 
 	$database="esa22";
 
-	$username="admin";  
+	$username="root";  
 
 	$password="";
 

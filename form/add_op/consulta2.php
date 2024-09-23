@@ -12,7 +12,7 @@ $bd = $base . $anio;
 
 // Database connection details
 $host = "localhost";
-$username = "admin";
+$username = "root";
 $password = "";
 
 // Establecer conexión mysqli

@@ -1,6 +1,6 @@
 <?php
 $host="localhost";
-$user="admin";
+$user="root";
 $password="";
 $db="esa20";
 $con = new mysqli($host,$user,$password,$db);

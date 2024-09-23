@@ -63,7 +63,7 @@ $src = 'data:image/jpeg;base64,' . $imageData;
     <?php
     $host = "localhost";
     $database = "esa22";
-    $username = "admin";
+    $username = "root";
     $password = "";
 
     $mysqli = new mysqli($host, $username, $password, $database);

@@ -6,7 +6,7 @@ $nombre = $_POST["nom"];
 
     $database="esa22";
 
-    $username="admin";  
+    $username="root";  
 
     $password="";
 //$nombres=1;

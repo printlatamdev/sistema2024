@@ -63,7 +63,7 @@ session_start();
   $host = "localhost";
   $database = $_REQUEST['bs'];
   $ano = $_REQUEST['ano'];
-  $username = "admin";
+  $username = "root";
   $password = "";
 
   $mysqli = new mysqli($host, $username, $password, $database);

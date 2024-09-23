@@ -20,7 +20,7 @@ mysqli_select_db($conexion, $bd);
 
 $host = "localhost";
 $database = $bd;
-$username = "admin";
+$username = "root";
 $password = "";
 
 $id_detalle_pliego = $_REQUEST['id_detalle_pliego'];

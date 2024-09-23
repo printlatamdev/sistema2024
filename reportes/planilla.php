@@ -62,7 +62,7 @@ th{
       
        $host="localhost";
 	   $database="esa20";
-	   $username="admin";  
+	   $username="root";  
        $password="";
 		$mysqli = new mysqli($host, $username, $password, $database);
 		if ($mysqli->connect_errno) {

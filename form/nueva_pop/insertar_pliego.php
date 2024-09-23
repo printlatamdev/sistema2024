@@ -10,7 +10,7 @@ session_start();
 $host = "localhost";
 // $base = $_SESSION['base'];
 $database = $_SESSION['base'] . $_SESSION['year'];
-$username = "admin";
+$username = "root";
 $password = "";
 
 

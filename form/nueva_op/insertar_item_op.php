@@ -6,7 +6,7 @@ $base = $_SESSION['base'];
 $anio = $_SESSION['year'];
 $bd = $base . $anio;
 $host = "localhost";
-$username = "admin";
+$username = "root";
 $password = "";
 $database = $bd;
 
