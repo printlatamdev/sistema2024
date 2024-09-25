@@ -85,6 +85,76 @@
     .content {
       margin-top: 80px;
     }
+    
+        .barniz{
+            background: #888;
+        }
+        .cyan {
+            background: #0D8ECF;
+        }
+
+        .white {
+            background: white;
+            color: #F5F5F5;
+        }
+        .magenta {
+            background: #CD0D74;
+        }
+
+        .yellow {
+            background: #F8FF01;
+            color: black;
+        }
+
+        .flush {
+            background: #6E6E6E;
+        }
+
+        .black {
+            background: #000000;
+        }
+
+        .light_cyan {
+            background: #58ACFA;
+        }
+
+        .light_magenta {
+            background: #F7819F;
+        }
+
+        .light_black {
+            background: #292828;
+        }
+
+        .light_yellow {
+            background: #FFFFE0;
+            color: black;
+        }
+
+        .solvente {
+            background: #ffffff;
+            color: black;
+        }
+
+        .cab_hp_cn {
+            background: #F81A24;
+        }
+
+        .cab_hp_my {
+            background: #251314;
+        }
+
+        .cab_hp_op {
+            background: #A5A2A2;
+        }
+
+        .cab_hp_lc_lm {
+            background: #AC58FA;
+        }
+
+        .optimizador {
+            background: #6E6E6E;
+        }
     input[type="number"] {
       width: 100px;
     }
