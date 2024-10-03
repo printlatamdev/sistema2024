@@ -53,15 +53,17 @@ if ($bandera == 1) {
   $fecha = $_POST['fecha'];
   $username = $_SESSION['username'];
   $op = $_POST['op'];
+
+  $id_autoriza = $_POST['autoriza'];
+  $nombre_autoriza = $_POST['nombre_autoriza'];
+  $detallecompra = $_POST['detalle'];
   if (isset($_REQUEST['pop'])) {
     $pop = '1';
   } else {
     $pop = '0';
   }
 
-  //  echo "INSERT INTO compra ( id_empresa, empresa, id_solicita, solicita, fecha,  usuario,  estado, ) VALUES ( '$empresa', '$nom_empresa', '$solicita', '$nom_solicita', '$fecha',  '$username',  '0')";            
-
-  $rs = $mysqli->query("INSERT INTO compra ( id_empresa, empresa, id_solicita, solicita, fecha,  usuario,  estado,  op, pop) VALUES ( '$empresa', '$nom_empresa', '$solicita', '$nom_solicita', '$fecha',  '$username',  '0',  '$op',  '$pop')");
+  $rs = $mysqli->query("INSERT INTO compra ( id_empresa, empresa, id_solicita, solicita, fecha,  usuario,  estado,  op, pop, id_autoriza, nombre_autoriza, detalle) VALUES ( '$empresa', '$nom_empresa', '$solicita', '$nom_solicita', '$fecha',  '$username',  '0',  '$op',  '$pop', '$id_autoriza', '$nombre_autoriza', '$detallecompra')");
 
   $compra = $mysqli->insert_id;
   //echo $order;
